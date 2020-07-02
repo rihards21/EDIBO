@@ -1,0 +1,155 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  shell
+    5  firefox &
+    6  firefox &
+    7  pw
+    8  pwd
+    9  clear
+   10  quit
+   11  clear
+   12  exit
+   13  VirtualBox --startvm XP
+   14  history
+   15  Ls
+   16  ls
+   17  ls .
+   18  ls /
+   19  /home/
+   20  ls /home/
+   21  ls /home/user/
+   22  ls
+   23  ls.
+   24  ls .
+   25  ls /user/
+   26  ls /home/sc
+   27  ls
+   28  ls /desktop/
+   29  cd
+   30  pwd
+   31  cd /desktop/
+   32  ls /desktop/
+   33  cd /ls/desktop/
+   34  ls /home/user/desktop
+   35  dc  /home/user/desktop
+   36  dc  /home/user/desktop/
+   37  cd  /home/user/desktop/
+   38  cd /desktop/
+   39  cd /home/user/desktop/
+   40  cd esktop
+   41  cd desktop/
+   42  cd Desktop
+   43  history
+   44  ls
+   45  folder
+   46  folder/
+   47  /folder/
+   48  mkdir
+   49  help
+   50  mkdir --help
+   51  mkdir newdier
+   52  mkdir abc
+   53  mkdir ABc
+   54  mkdir AbC
+   55  mkdir ABC
+   56  ls
+   57  mkdir aBc
+   58  mkdir abC
+   59  mkdir ls
+   60  ls
+   61  clear
+   62  mkdir abC
+   63  mkdir Abc
+   64  mkdir aBc
+   65  history
+   66  ls
+   67  mkdir aBC
+   68  ls
+   69  date
+   70  time
+   71  ls -l
+   72  ls -l ABc
+   73  ls -l/home/user/desktop/ABc
+   74  ls -l/home/user/desktop/
+   75  ls -l/home/user/desktop/ABc
+   76  ls -l /home/user/desktop/ABc
+   77  cd
+   78  pwd
+   79  cd /etc
+   80  ls | head
+   81  ls | tail
+   82  ls | head3
+   83  ls | head -3
+   84  ls | tail -3
+   85  ls | tail -n 3 | wc 
+   86  -l
+   87  ls | tail -n 3 | wc -l
+   88  ls | tail -n 3 | wc -c
+   89  ls | wc -c
+   90  cd
+   91  ls
+   92  ls desktop/
+   93  ls Desktop
+   94  ls | wc -c
+   95  ls Desktop/| wc -c
+   96  ls Desktop/| wc -m
+   97  ls Desktop/| wc -n
+   98  wc --help
+   99  java
+  100  java --version
+  101  python
+  102  ls /Desktop
+  103  ls
+  104  -ls
+  105  cd
+  106  a=123
+  107  echo a
+  108  echo hello
+  109  echo $a
+  110  a=7
+  111  a=3
+  112  b=Sveiki
+  113  echo $b
+  114  c="hello world"
+  115  echo $c
+  116  echo $c $a
+  117  echo $c, $a
+  118  d=,
+  119  echo $a$d$c
+  120  date
+  121  echo date
+  122  echo key
+  123  d=date|echo $d
+  124  echo $d
+  125  echo 'date'
+  126  /date
+  127  est \date
+  128  echo $a
+  129  z=54
+  130  echo $z
+  131  echo $a+$z
+  132  echo $a+$z wc
+  133  wc echo $a+$z 
+  134  wc= $a+$z 
+  135  wc=$a+$z 
+  136  $wc
+  137  wc $a|$z
+  138  wc echo  $a|$z
+  139  expr $a+$z
+  140  echo $a $z
+  141  echo $((a+z))
+  142  echo $((a-z))
+  143  pwd
+  144  ls
+  145  echo $((a+z))
+  146  echo $((a+z)) EUR
+  147  echo $((a+z)) EUR > a.txt
+  148  ls
+  149  ls -l
+  150  ls-l a.txt
+  151  ls -l a.txt
+  152  cat a.txt
+  153  tail a.txt
+  154  history
+  155  history > h.txt
