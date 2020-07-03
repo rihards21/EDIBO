@@ -1,0 +1,145 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  echo $user
+    5  echo $USER
+    6  echo $HOME
+    7  cd /
+    8  pwd
+    9  cd $HOME
+   10  pwd
+   11  $PSI
+   12  echo  $PSI
+   13  echo $PSI
+   14  echo $PS1
+   15  echo $PS1=$
+   16  $PS1=$
+   17  $PS1
+   18  echo $PS1
+   19  $PS1=$
+   20  PS1=@
+   21  PA1=!
+   22  PS1=!
+   23  PS1=kl
+   24  PS1=user@epk428-15:~$
+   25  PS1=2
+   26  PS1=
+   27  ls
+   28  mkdir --help
+   29  nano
+   30  whereis pico
+   31  cd /usr/bin/pico
+   32  /usr/bin/pico
+   33  ls -l /usr/bin
+   34  ls -l /usr/bin/ | wc -l
+   35  ls -l /usr/bin/pico
+   36  ls -l /etc/alternatives/pico
+   37  ls -l /bin/nano 
+   38  pwd
+   39  vim
+   40  vim 01.sh
+   41  ls -l
+   42  ls -l 01.sh
+   43  wc 01.sh
+   44  chmode +x 01.sh 
+   45  ls -l 01.sh 
+   46  chmode 740 01.sh 
+   47  ls
+   48  chmode +x 01.sh 
+   49  chmod +x 01.sh 
+   50  ls -l 01.sh 
+   51  vim.
+   52  vim 01.sh 
+   53  vim .
+   54  mc
+   55  pwd
+   56  ls o1.sh`
+cd ..
+PS1=
+ ./01.sh
+ls o1.sh`
+   57  cd ..
+   58  PS1=
+   59  ls 01.sh
+   60  pwd
+   61  cd /home/ user
+   62  cd /home/user
+   63  ./01.sh 
+   64  ls -l 01.sh 
+   65  vim. 01.sh 
+   66  vi m. 01.sh 
+   67  vim . 01.sh 
+   68  vim 01.sh 
+   69  ls -l 01.sh 
+   70  wc  01.sh 
+   71  ls 01.sh 
+   72  01.sh
+   73  pwd
+   74  ls 01.sh 
+   75  echo 01.sh 
+   76  vim 01.sh
+   77  ls 01.sh 
+   78  wc  01.sh 
+   79  ./ 01.sh 
+   80  wim 01.sh 
+   81  vim 01.sh 
+   82  ls Desktop
+   83  ls /Desktop
+   84  vim 01.sh 
+   85  ls 01.sh 
+   86  vim 01.sh 
+   87  ls
+   88  ./01.sh 
+   89  history
+   90  vim 02.sh
+   91  nano 02.sh
+   92  vim 02.sh
+   93  ./ 02.sh 
+   94  ./02.sh 
+   95  vim 02.sh
+   96  ./02.sh
+   97  ./ 02.sh
+   98  ls
+   99  chmod 02.sh 
+  100  chmod02.sh 
+  101  chmod +1  02.sh 
+  102  chmod +1x 02.sh 
+  103  chmod +x 02.sh 
+  104  ls
+  105  ./02.sh 
+  106  ./ 02.sh 
+  107  .02.sh 
+  108  . 02.sh 
+  109  vim 02.sh 
+  110  vim 01.sh 
+  111  ./01.sh 
+  112  real
+  113  time
+  114  time ./01.sh 
+  115  PS1=$
+  116  vim 02.sh 
+  117  do echo 10
+  118  do 100 echo "hello"
+  119  do100 echo "hello"
+  120  variable echo "hello 100$ times"
+  121  do echo "hello 100$ times"
+  122  do echo "hello $100 times"
+  123  variable echo "hello $100 times"
+  124  variable "hello $100 times"
+  125  variable"hello $100 times"
+  126  variable"hello $ 100 times"
+  127  variable"hello $100 times"
+  128  echo "welcome $100 times"
+  129  for i in {0..100} do echo "$i date" ; for i in {0..100} do echo "$i"done 
+  130  for i in {0..100} do echo "$i date" ; for i in {0..100}; do echo "$i"; done 
+  131  for i in {0..100}; do echo "$i"; done 
+  132  for i in {0..100}; do echo "$i^2"; done 
+  133  for i in {0..100}; do echo "$i**2"; done 
+  134  for i in {0..100}; do echo "$i**i"; done 
+  135  for i in {0..100}; do echo "$i*2"; done 
+  136  for i in {0..100}; do echo "$i^$1"; done 
+  137  for i in {0..100}; do echo "$i^$i"; done 
+  138  for i in {0..100}; do echo "$i*$i"; done 
+  139  for i in {0..100}; do echo "$i $((i*i))"; done 
+  140  for i in {0..100}; do echo "$i $((i*i)) $((i*i*i))"; done 
+  141  history > txt
