@@ -7,3 +7,24 @@
 1:2=0           |
 jāgriež otrādi ronda sanāks:
 1111011
+
+
+
+kā aprēķināt basha
+
+#! /bin/bash
+n=123
+result=0
+degree=1
+
+while [ $n -ne 0 ]
+do
+        balance=$(( $n % 2 ))
+        result=$(( $balance * $degree + $result ))
+        degree=$(( $degree * 10 ))
+        n=$(( $n / 2 ))
+done
+
+echo "binary value of 123= $result"
+
+
