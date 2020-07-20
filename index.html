@@ -1,6 +1,4 @@
-<!-- Add icon library -->
- 
- <div class="icon-bar">
+<div class="icon-bar">
  <a class="active" href="jeep.html"><i class="fa fa-home"></i></a>
   <a href="search.html"><i class="fa fa-eur"></i></a>
   <a href="junk.html"><i class="fa fa-glass"></i></a>
@@ -35,50 +33,150 @@ body {margin:0}
   background-color: #000000;
 }
 </style>
-
 <title>Mana pirmā majas lapa</title>
-<h2 style="color: white; font_size: 30 px;">GPU manufactuers</h2>
+  <h1 style="color: grey; font_size: 40 px;">Information about GPU's and CPU's</h1>
+  <h3>What is CPU</h3>
+  <dl>
+    <dt>A graphics processing unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. GPUs are used in embedded systems, mobile phones, personal computers, workstations, and game consoles. Modern GPUs are very efficient at manipulating computer graphics and image processing. Their highly parallel structure makes them more efficient than general-purpose central processing units (CPUs) for algorithms that process large blocks of data in parallel. In a personal computer, a GPU can be present on a video card or embedded on the motherboard. In certain CPUs, they are embedded on the CPU die.[1]
+
+The term "GPU" was coined by Sony in reference to the PlayStation console's Toshiba-designed Sony GPU in 1994.[2] The term was popularized by Nvidia in 1999, who marketed the GeForce 256 as "the world's first GPU".[3] It was presented as a "single-chip processor with integrated transform, lighting, triangle setup/clipping, and rendering engines".[4] Rival ATI Technologies coined the term "visual processing unit" or VPU with the release of the Radeon 9700 in 2002.[5]</dt>
+    </dl>
+  <h3>What is GPU</h3>
+  <dl>
+    <dt>
+      A central processing unit (CPU), also called a central processor or main processor, is the electronic circuitry within a computer that executes instructions that make up a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. The computer industry used the term "central processing unit" as early as 1955.[1][2] Traditionally, the term "CPU" refers to a processor, more specifically to its processing unit and control unit (CU), distinguishing these core elements of a computer from external components such as main memory and I/O circuitry.[3]
+
+The form, design, and implementation of CPUs have changed over the course of their history, but their fundamental operation remains almost unchanged. Principal components of a CPU include the arithmetic logic unit (ALU) that performs arithmetic and logic operations, processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) and execution of instructions by directing the coordinated operations of the ALU, registers and other components.
+
+Most modern CPUs are microprocessors, where the CPU is contained on a single metal-oxide-semiconductor (MOS) integrated circuit (IC) chip. An IC that contains a CPU may also contain memory, peripheral interfaces, and other components of a computer; such integrated devices are variously called microcontrollers or systems on a chip (SoC). Some computers employ a multi-core processor, which is a single chip or "socket" containing two or more CPUs called "cores".[4]
+
+Array processors or vector processors have multiple processors that operate in parallel, with no unit considered central. Virtual CPUs are an abstraction of dynamical aggregated computational resources.[5]
+
+
+
+    </dt>
+    </dl>
+     <h2 style="color: red; font_size: 30 px;">GPU manufactuers</h2>
 <dl>
-<dt>Nvidia:</dt>
-<dd>-Geforce......</dd>
+    <dt>Nvidia:</dt>
+    <dd>-Geforce......</dd>
 <dt>Radeon:</dt>
 <dd>- rx, vega</dd>
 </dl>
 
+<h2>CPU manufactuers</h2>
 
-<h1>CPU manufactuers</h1>
 
 <dl>
 <dt>AMD:</dt>
-<dd>-FX, rayzen 3,5,7,9</dd>
+<dd>- Athlon, FX, rayzen 3,5,7,9</dd>
 <dt>INTEL:</dt>
-<dd>- i-3 i-5 i-7 i-9</dd>
+<dd>- Core, Pentium, Xeon, Celerone, core i3, i5, i7, i9.</dd>
 </dl>
-<h3>Website which shows specs</h3>
-<a href="https://www.nutritionvalue.org/">comparison</a>
-<h4>CPU comparisson</h4>
-<table style="width:100%">
-<tr>
-    <th>gen</th>
-    <th>ghz</th>
-    <th>price</th>
-    <th></th>
-    <th></th>
-    </tr>
-    <tr>
-    <td> </td>
-<p><a href="jeep.html">jeep</a></p>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+</body>
+</html>
+
+<h3>Website which shows specs:</h3>
+<a href="https://www.cpubenchmark.net/">comparison</a>
+<h2>CPU comparison</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
 <style>
-body {
-    background-image: url("cat.jpg");
-html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+table {
+  width:100%;
 }
-    background-color #999966;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
 }
 </style>
+</head>
+<body>
 
+<table id="t02">
+  <tr>
+    <th>CPU</th>
+    <th>socket</th>
+    <th>clockspeed ,GHz</th>
+    <th>cores</th>
+    <th>price ,$</th>
+
+  </tr>
+  <tr>
+    <td>Intel core i7-6700k</td>
+    <td>LGA1151</td>
+    <td>4.0</td>
+    <td>4</td>
+    <td>289.99</td>
+
+
+  </tr>
+  <tr>
+    <td>Intel core i7-7700k</td>
+    <td>LGA1151</td>
+    <td>4.2</td>
+    <td>4</td>
+    <td>406.98</td>
+
+  </tr>
+  <tr>
+    <td>amd ryzen 5-3600x</td>
+    <td>AM4</td>
+    <td>3.8</td>
+    <td>6</td>
+    <td>217.99</td>
+
+  </tr>
+</table>
+<style>
+  body {
+  background-color: #ccffe5;
+}
+</style>
+</body>
+</html>
+<html>
+<head>
+<style>
+  h4 {text-align: center;}
+  h3 {text-align: center;}
+  h2 {text-align: center;}
+  dt {text-align: center;}
+  dd {text-align: center;}
+  dl {text-align: center;}
+  a {text-align: center;}
+
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+<body>
+
+
+
+</body>
+</html>
