@@ -75,10 +75,8 @@ Array processors or vector processors have multiple processors that operate in p
 </dl>
 <html>
 <body>
-
-<h2>HTML Image</h2>
-<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-
+<h2>AMD CPU</h2>
+<img src=" AMD.jfif" alt="AMD" width="311" height="162">
 </body>
 </html>
 
@@ -176,7 +174,40 @@ div {text-align: center;}
 </head>
 <body>
 
+  <html>
+  <head>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script type="text/javascript">
 
+  window.onload = function () {
+      var chart = new CanvasJS.Chart("chartContainer", {
+          title:{
+              text: "Fps in game Hitman 2 with high graphics (minimal and medium fps)"
+          },
+          data: [
+          {
+              // Change type to "doughnut", "line", "splineArea", etc.
+              type: "column",
+              dataPoints: [
+              { label: "i7-6700k low. fps",  y: 103  },
+              { label: "i7-6700k med. fps",  y: 130},
+              { label: "i7-7700k low. fps",  y: 110  },
+              { label: "i7-7700k med. fps",  y: 138 },
+              { label: "5-3600x low. fps",  y: 104  },
+              { label: "5-3600x med. fps",  y: 136 }
+
+              ]
+          }
+          ]
+      });
+      chart.render();
+  }
+  </script>
+  </head>
+  <body>
+  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+  </body>
+  </html>
 
 </body>
 </html>
