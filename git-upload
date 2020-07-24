@@ -1,0 +1,6 @@
+#!/bin/bash
+git config --global user.email rihardsagency@gmail.com
+git add .
+git commit -m "20200724"
+git push origin master
+~                           
