@@ -1,0 +1,26 @@
+ntity Post{ 
+title: String
+content: String
+}
+
+entity Tag{ 
+name String
+}
+
+entity Blog{ 
+name: String
+handle: String
+}
+
+entity User{
+}
+
+relationship ManyToOne {
+	Post{tag} to Tag
+}
+relationship ManyToOne {
+	Post{blog} to Blog
+}
+relationship OneToOne{
+	Tag{user} to User
+}
