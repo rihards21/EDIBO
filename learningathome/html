@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>hello im <sup>1st</sup>john <sub>town</sub></h1>
+<p>Lorem ipsum dolor <strong>sit amet consectetur adipisicing elit </strong>. Debitis laudantium inventore beatae aliquid voluptatum, fugiat ipsam id labore consectetur delectus <em>tempora autem reprehenderit? Optio, facilis! Optio fugit aut laboriosam in amet rem facilis </em>laudantium, officiis unde vitae et aspernatur ea voluptates? Praesentium autem saepe totam quidem omnis nostrum soluta incidunt?</p>
+<h1>copyright &copy; </h1>
+<ul>
+    <li><a href="#"></a></li>
+    <li><a href="about.html"></a></li>
+
+</ul>
+<ol>
+<li>html</li>
+<li>css</li>
+</ol>
+
+<table>
+    <tr>
+        <th>index</th>
+        <th>jellow</th>
+        <th>action</th>
+
+    </tr>
+    <tr>
+        <td>john</td>
+        <td>peter</td>
+        <td>jana</td>
+    </tr>
+</table>
+</tr>
+<form action="" method="">
+    <label for="name">first name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <p>password</p>
+    <input type="password"
+    placeholder="password">
+    <br>
+    <input type="email" name="" id="" value="email@email">
+    <br>
+    <p>Description</p>
+    <textarea name="" id="" cols="20" rows="10"></textarea>
+    <br>
+    <p>please select your favorite coding language?</p>
+    <input type="radio" name="coding" id="Javascript">Javascript 
+    <input type="radio" name="coding" id="Python">Python 
+    <input type="radio" name="coding" id="Java">Java   
+        <br>
+        <p>please select your favorite coding language?</p>
+        <input type="checkbox" value="Javascript" 
+        name="programming" id="">Javascript
+        <input type="checkbox" value="Python" 
+        name="programming" id="">Python  
+        <input type="checkbox" value="Java" 
+        name="programming" id="">Java
+        <br>
+        <p>please select your favorite coding language?</p>
+        <select name="languages" id="">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit please">
+
+
+
+</form>
+</body>
+</html>
