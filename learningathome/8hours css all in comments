@@ -1,1 +1,1047 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:ital,wght@1,300&display=swap");
+
+/* font-size wifth, height, pixels */
+/* h1 {
+  font-size: 60px;
+  color: orange;
+  width: 20000px;
+  height: 2000px;
+  background: #000;
+} */
+/* 
+.outer {
+  width: 500px;
+  height: 500px;
+  background: blue;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: orange;
+} */
+
+/* em- relative depends on parent */
+/* 1em = 16px default browsers but you can change it
+  and base value */
+
+/* html { */
+/* font-size: 32px; */
+/* } */
+/* in html you can change for rem  */
+
+/* div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 64px;
+} */
+
+/* when you make parent container than em cjanges basic is 1em= 16px   it now changes to 1ee+10px   
+if u use rem it dont depend on parent it uses default*/
+
+/* vh- height - percent of screen
+vw - width- percent of the screen 
+*/
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blueviolet;
+} */
+
+/* default browser styles and goodle devtools */
+
+/* calc()
+perform math operations +-* 
+mix and watch values
+*/
+/* * {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
+} */
+
+/* 
+font-size font-family 
+serif, sans-serif, cursive, fantasy, monoscope
+*/
+
+/*
+GOOGLE FONTS 
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:ital,wght@1,300&display=swap"); or <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+ */
+
+/* body {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+}
+.main {
+  font-family: "Yesteryear", cursive;
+  text-align: center;
+}
+
+.subheading {
+  font-style: normal;
+}
+
+.one {
+  font-weight: 700;
+  font-style: italic;
+  text-indent: 5rem;
+}
+.two {
+  font-weight: 4000;
+  font-style: oblique;
+  text-align: left;
+} */
+
+/* 
+line-height
+letter-spacing
+word-spacing  
+text-transfrom
+text-decaration;
+*/
+/* a {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* body {
+  text-transform: lowercase;
+}
+h1 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+.one {
+  line-height: 1.5rem;
+}
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
+} */
+
+/*
+CSS BOX MODEL 
+padding makes distance of text from border
+border makes a field for text
+margin makes distance for 2 different text, border etc.
+
+*/
+/* h1 { */
+/* background: red; */
+/* padding-top: 30px   ;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 50px; */
+/* padding: 20px; */
+/* margin: 30px; */
+/* border-style: solid;
+  border-width: 10px;
+  border-color: #00ff00; */
+/* border-bottom-style: dashed;
+  border-bottom-width: 5px;
+  border-bottom-color: #222; */
+/* border: 5px solid black; */
+/* border-radius: 20px; */
+/* } */
+
+/* with padding: 50px you can set the same padding from each side. */
+
+/* p { */
+/* background: blue;
+  padding: 70px; */
+/* width style, color */
+/* border: 13px solid green; */
+/* margin-top: 50px 20px; */
+/* margin: 100px 20px 20px 50px; */
+/* padding: 50px;      */
+/* padding: 30px 60px; */
+/* top, right, bottom, left */
+/* padding: 20px 40px 60px 10px; */
+/* border-radius: 50%; */
+/* margin-top: -100px; */
+/* } */
+
+/* .button {
+  margin: 3px;
+}
+a {
+  background: #689f3f;
+  text-decoration: none;
+  padding: 2rem 2rem;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 20px;
+}
+#one {
+  border: 0.2rem solid #222;
+}
+#two {
+  outline: 0.2rem solid #222;
+  outline-offset: 10px;
+} */
+
+/*  DEFAULT DISPLAY PROPERTY
+BLOCK: ALWAYS START A NEW LINE AND TAKE FULL WIDTH
+INLINE: DOES NOT START AND ONLY TAKE UP AS MUCH AS CONTENT space
+*/
+
+/* body {
+  text-align: center;
+}
+.block {
+  background: red;
+  color: white;
+  width: 150px;
+  margin: 20px auto;
+  /* margin: 0 auto; makes it just in midlle without block and inline */
+/* margin: 0 auto; */
+/* display: inline; takes online space its need */
+/* } */
+/* .inline { */
+/* background: blue; */
+/* color: white; */
+/* display: block;  takes all from right to left*/
+/* } */
+
+/*  DEFAULT DISPLAY PROPERTY
+BLOCK: ALWAYS START A NEW LINE AND TAKE FULL WIDTH
+INLINE: DOES NOT START AND ONLY TAKE UP AS MUCH AS CONTENT SPACE 
+MOBILE NAVBAR
+LIST-STYLE-TYPE: PROPERTY
+DESCENDANT SELECTORS
+*/
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #222;
+  color: #f15025;
+  display: block;
+  padding: 300px;
+  margin: 10px;
+} */
+
+/* INLINE BLOCK */
+
+/* a {
+  font-size: 60px;
+  background: red;
+  margin: 60px;
+  display: inline-block;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box; makes padding by taking dow from width and height by not using extra place
+}
+.box-1 {
+  background: red;
+  padding: 20px;
+}
+.box-2 {
+  background: blueviolet;
+}
+.box-3 {
+  background: firebrick;
+  padding: 20px;
+} */
+
+/* 
+DISPLAY: NONE hides it and doesent take any space
+OPACITY: 0; makes it more or less tonned or eaven invisiable
+VISABILITY: HIDDEN; is not visiable but takes space in webpage
+*/
+
+/* div {
+  background: blue;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity {
+  opacity: 1;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-5 {
+  opacity: 0.25;
+}
+
+.visibility {
+  visibility: hidden;
+} */
+
+/* div {
+  height: 200px;
+  color: red;
+}
+
+.big-img {
+  background: url("./big\ image.jpeg");
+  background-repeat: round;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./small.jpeg");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.building-img {
+  background: url("./building.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+
+/* background-position */
+/* backgrouund attachment */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.big-img {
+  background: url("./big\ image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-position: center; */
+/* } */
+/* .small-img {
+  border: 2px solid red;
+  background: url("./building.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* forsa kustiba augstak paliel taa ka bilde nekustaas kopaa ar tekstu */
+/* } */
+/* .building-img {
+  background: url("./big\ image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+/* div {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: 5px;
+}
+
+.one {
+  background: linear-gradient(red, green, blue, yellow);
+}
+
+.two {
+  background: linear-gradient(to top, red, green);
+}
+.three {
+  background: linear-gradient(150deg, red, green);
+}
+.four {
+  background: linear-gradient(to top left, red, green);
+}
+.five {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+}
+.six {
+  background: linear-gradient(red, blue);
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+.banner {
+  background: url("./big\ image.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+/* you can make your picture look blacker or whiter */
+/* you can shorten the .banners info . so the order is above  */
+/* .header {
+  background: linear-gradient(rgba(129, 25, 25, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./big\ image.jpeg") center/cover no-repeat fixed;
+/* } */
+
+/* .banner {
+  border: 20px solid red;
+  padding: 10px;
+  overflow: hidden;
+} */
+/* float makes the image be in some side and letting you write */
+
+/* clear places where should text be */
+/* p { */
+/* clear: left; */
+/* } */
+
+/* .one { */
+/* float: right; */
+/* height: 250px; */
+/* margin-left: 50px; */
+/* } */
+/* .two { */
+/* float: left; */
+/* height: 400px; */
+/* } */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  float: left;
+  height: 400px;
+  width: 33%;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blueviolet;
+}
+.three {
+  background: green;
+}
+
+h1 {
+  clear: both;
+} */
+
+/* POSITION FIXED!!!!!!!!!!!!!!!! */
+/* button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: relative; */
+/* } */
+/* .one {
+  background: blue; */
+/* top: 50px;
+  /* position: relative;
+  left: 20rem; */
+/* right: 50%;
+  bottom: 20px; */
+/* } */
+/* .two { */
+/* background: green; */
+/* position: relative; */
+/* } */
+/* .special { */
+/* background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+} */
+
+/* MEDIA QUERIES
+RESPONSIVE DESOGN
+STYLE ELEMENTS ON DIFFEREN SCREEM SIZES
+MIN-WIDTH: -- STARTING FROM
+MAX-WIDTH: -- UP TO 
+MOBILE FIRST
+*/
+
+/* body {
+  background: yellow;
+}
+.banner {
+  background: violet;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+} */
+
+/* SAMAZINOT PA'SA BROWSERA PLATUMA MAINAS IZSKATS */
+/* @media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+    border-radius: 20px;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+} */
+
+/* @media screen and (min-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+} */
+
+/* Z-INDEX --- Z-AXIS    WE CAN MAKE SOME PICTURE OWERLAY OTHER
+POSITION:STATIC ---DOES NOT WORK  YOU HAVE TO USE BACKGROUND: RELATIVE OR ABSOLUTE
+*/
+
+/* img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.banner {
+  margin: 20px;
+  width: 70vw;
+  height: 70vh;
+  border: 5px solid red;
+  position: relative;
+}
+.one {
+  top: 0;
+  left: 0;
+  z-index: 0;
+} */
+/* .two {
+  top: 10%;
+  left: 10%;
+  z-index: -1;
+}
+.one {
+  top: 20%;
+  left: 20%;
+  z-index: -2;
+} */
+
+/*  PSEUDO ELEMENT :: BEFORE :: AFTER CONTENT NOT ELEMENT
+CONTENT: '' --- REQUIRED
+IMG --- DOES NOT WORK */
+
+/* with this command you can add something */
+/* p::before {
+  background: black;
+  display: block;
+  content: "hello";
+  font-size: 20px;
+  color: red;
+}
+
+p::after {
+  content: " ";
+  display: block;
+  width: 300px;
+  height: 50px;
+  background: gray;
+}
+div {
+  width: 60vw;
+  margin: 100px auto;
+  border: 2px solid red;
+  position: relative;
+}
+img {
+  width: 100%;
+  display: block;
+} */
+
+/* var uztais'it apk'at kr'asu */
+/* div::before {
+  content: "";
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+
+div::after {
+  content: "";
+  background: greenyellow;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+} */
+
+/* DOESENT SHOW FONT BUT WHEN YOU MOVE MOUSE ON IT IT SHOWS WHAT IS FONT */
+/* div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
+} */
+
+/* BASIC SELECTORS */
+
+/* * {
+  color: red;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+p {
+  letter-spacing: 20px;
+} */
+
+/* DESCENDANT AND CHILD COMBINATORS */
+
+/* div h1 {
+  color: red;
+}
+div > h1 {
+  color: blue;
+}
+
+.header h1 {
+  color: green;
+}
+.header > h1 {
+  color: gray;
+} */
+
+/* :: dirst-line ::first-leter  we can make firs letter large and we can make specific line in some color without using span*/
+
+/* p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 3rem;
+} */
+
+/*  :HOVER changes color when you move mous on it */
+
+/* p:hover {
+  color: red;
+}
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+} */
+/* : LINK :VISITED :HOVER :ACTIVE */
+
+/* a:link {
+  color: aqua;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: green;
+} */
+
+/* :ROOT ROOT ELEMENT OF THE DOCUMENT
+HTML ELEMENT
+GENERALSTYLES
+CSS VARIABLES
+ */
+
+/* :root {
+  background: red;
+  font-size: 150%;
+}
+h1 {
+  font-size: 3rem;
+}
+.absolute {
+  font-size: 20px;
+}
+.responsive {
+  font-size: 3rem;
+} */
+
+/* TRANSFORM : TRANSLATE(taisa figuuru augst;aku vai zemaku), SCALE( palielina un samazini, bet ja samazina apkārt lielums paliek tas pats), ROTATE( iet tikai uz z pusi), SKEW() 
+*/
+
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+} */
+
+/* .one { */
+/* background: red; */
+/* transform: translateX(50%); */
+/* transform: scaleX(0.2); */
+/* transform: skewX(-20deg); */
+/* } */
+/* .two {
+  background: green; */
+/* transform: translateY(30px); */
+/* transform: scaleY(2); */
+/* transform: rotateZ(45deg); */
+/* transform: skewY(-20deg);
+} */
+/* .three {
+  background: aqua; */
+/* transform: translateX(75px); */
+/* transform: translate(200px, 300px); */
+/* transform: scale(2, 0.5); */
+/* transform: rotateX(22deg); */
+/* transform: skew(40deg, -20deg);
+} */
+
+/* TRANSITION: CHANGE OVER TIME 
+TRANSITION-PROPERTY:
+TRANSITION-DURATION:
+
+*/
+
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: green;
+} */
+/* ar transition-property: background, border-radius; var izveidot divas opcijas uz vienu priekšmetu  */
+/* .three { */
+/* background: aqua; */
+/* transition-property: background, border-radius;
+  transition-duration: 4s, 5s;
+  transition-delay: 3s; */
+/* first is time when  it changes in 3 sec and second delay till action */
+/* transition: background 3s 2s; */
+/* shii funkcija strada ar hoveru */
+/* transition: all 4s 5s; */
+/* } */
+/* apgriez fotografiju aplii un parkraso 4 sekundees */
+/* .three:hover { */
+/* border-radius: 50%; */
+/* background: blue;  */
+/* } */
+
+/* "
+how the transition takes place
+transition-timing-function:
+transition:all 3s here 5s
+ease = default
+ease = slow start, fast, slow end
+linear= same speed start to end
+ease-in = slow  start
+ease-out = slow end
+ease-in-out = slow start, fast, slow end
+*/
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin: 15px;
+  transition: all 1s;
+} */
+/* kustina uz 100px pa labi */
+/* div:hover {
+  transform: translateX(100px);
+} */
+/* .ease { */
+/* transition: all 2s ease; */
+/* transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+} */
+
+/* TRANSITION 0 = 100% 
+ANIMATION 0 1% 2% .....100%
+*/
+
+/* div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+} */
+/* .transition {
+  background: green;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: yellow;
+  transform: translateX(100px);
+} */
+/* .animation {
+  background: blueviolet; */
+/* animation-name: move;
+  animation-duration: 20s;
+  animation-iteration-count: 2; */
+/* animation: move 5s infinite; */
+/* }
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+
+  75% {
+    transform: translateX(20px);
+    background: aqua;
+  }
+  100% {
+    transform: translateX(200px);
+    background: gray;
+  }
+} */
+
+/* ANIMATION-FILLMODE: WHAT VALUES ARE APPLIED BY THE ANIMATION OUTSIDE THE TIME IT IS EXECUTING kustēšanas utt
+ */
+
+/* div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
+
+.animation {
+  background: blueviolet;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.5;
+  }
+} */
+
+/* CSS VARIABLES AKA CUSTOM PROPERTIES
+GOLD A VALUE AND REUSE IT
+--VARNAME: VALUE
+PROPERTY:VAR(==VARNAME)
+SCOPE
+:ROOT{} === GLOBAL
+ELEMENT === LOCAL
+ANY PROPERTY */
+
+/* .heading {
+  color: #f15039;
+}
+.text {
+  color: #32ff0e;
+}
+.main-text {
+  color: #1313fa;
+}
+
+.second-heading {
+  color: #f15025;
+} */
+/* :root {
+  --primaryColor: #1313fa;
+  --secondaryColor: #f15025;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+.second-heading:hover {
+  color: var(--secondarycolor);
+}
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+
+.third-heading {
+  color: var(--primaryRed);
+} */
+
+/*  ICONS
+FONT-AWESOME ICONS
+FREE, EASY TO GET UP AND RUNNING, SIMPLE SYNTAX */
+
+/* .fa-android {
+  color: green;
+}
+.social-icon {
+  font-size: 4rem;
+  color: red;
+} */
+
+/*  
+TEXT-SHADOW
+BBOX-SHADOW
+*/
+/* first is ro left next is y down and then blurinees and color */
+/* h1 { */
+/* text-shadow: 1px 8px 5px red; */
+/* text-shadow: -19px -18px 4px rgba(0, 165, 145, 0.81);
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background: mediumaquamarine;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+.box:hover {
+  -webkit-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+} */
 
